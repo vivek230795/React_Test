@@ -1,0 +1,112 @@
+body {
+  background-color: #171717;
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.app {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #171717;
+  margin-bottom: 10px;
+  height: 40px;
+  position: sticky;
+  top: 0; 
+  z-index: 1; 
+  transition: box-shadow 0.3s ease; 
+  
+}
+.header-container {
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.header img {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items:center;
+  background-color: none;
+  border-radius: 5px;
+  padding:5px;
+  margin-left : 48px
+}
+
+.search-img {
+  margin-right: 0px;
+  margin-left: 6px ;
+}
+
+.input-box {
+  border : none;
+  background: none;
+  width: 100px;
+}
+
+.search-bar {
+  border : none;
+  background-color:none;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.input-box{
+  cursor: pointer;
+}
+
+.scrollable {
+  overflow: auto; 
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.title {
+  text-align:left;
+  font-size:12px;
+  margin-top: -4px;
+}
+
+
