@@ -1,2 +1,2 @@
-# React Diagonal Interview Question :
+# React Interview
 -------------------------------------
